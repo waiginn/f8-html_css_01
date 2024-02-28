@@ -43,7 +43,18 @@ a {
 }
 
 /********* Header *******/
+.fixed-header {
+  background: #e6f0ff;
+  padding: 26px;
+  position: sticky;
+  top: -26px;
+  /* chi so chieu sau, luc cuon khong bi the sau che mat */
+  z-index: 1;
+}
+
 .header {
+  display: flex;
+  flex-direction: column;
   position: relative;
   background: #e6f0ff;
   height: 100vh;
@@ -51,7 +62,7 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  padding: 12px 0;
 }
 .navbar ul {
   display: flex;
