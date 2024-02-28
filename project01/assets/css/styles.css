@@ -141,7 +141,16 @@ a {
   /* can giua truc ngang them align item */
   align-items: center;
   justify-content: space-between;
-  margin-top: 96px;
+  margin-top: 70px;
+}
+.clients .images a {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 0 42px;
+}
+.clients .images a:hover {
+  box-shadow: 0 px 10px 20px rgba(0, 0, 0, 0.1);
 }
 /* ========guides======= */
 .guides {
